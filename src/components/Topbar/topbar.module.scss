@@ -1,0 +1,44 @@
+.topbar {
+  background-color: white;
+  width: 393px;
+  height: 44px;
+  margin-bottom: 674px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+}
+
+.left {
+  margin-left: 37px;
+}
+
+.time {
+  font-family: "SF-Pro-Text-Semibold";
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  padding-right: 20.67px;
+  gap: 4px;
+}
+
+.network {
+  min-width: 20px;
+}
+
+.wifi {
+  min-width: 16px;
+}
+
+.battery {
+  min-width: 26px;
+  display: flex;
+}
